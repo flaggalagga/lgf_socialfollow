@@ -4,13 +4,12 @@
 
 <img src="logo.png" alt="My Logo" width="50" />
 
-# Prestashop Social Media and Messengers Links Module (lgf_socialfollow)
-🇫🇷 [Français](README.fr.md)
+# Module Prestashop pour les liens vers les réseaux sociaux et messageries (lgf_socialfollow)
+🇬🇧 [English](README.md)
 ## Description
+Le `lgf_socialfollow` est une amélioration importante du module Prestashop original [`ps_socialfollow`](https://github.com/PrestaShop/ps_socialfollow). Il permet d'afficher des liens vers vos comptes sur les réseaux sociaux et les messageries, aidant ainsi vos clients à savoir où vous suivre et à développer votre communauté en ligne.
+Le module prend en charge les plateformes suivantes :
 
-The `lgf_socialfollow` is an extensive upgrade to the original Prestashop [`ps_socialfollow`](https://github.com/PrestaShop/ps_socialfollow) module. It allows you to display links to your social media and messenger accounts, helping your customers know where to follow you and increase your online community.
-
-The module supports the following platforms:
 <div class="social-list">
   <div class="social-item">
     <i class="fa-brands fa-facebook-f" style="color: #1877F2;"></i>
@@ -93,48 +92,29 @@ The module supports the following platforms:
   }
 </style>
 
-
-
-
-## Features
-
-- Provides hover effects for better user interaction
-- Uses Font Awesome icons for the platform logos
-- Fully customizable CSS styles
-- Follows Prestashop module best practices
-- Centralized configuration for supported social networks
-- Template-based rendering for flexible UI customization
-
+## Fonctionnalités
+- Utilise les icônes Font Awesome pour les logos des plateformes
+- Styles CSS entièrement personnalisables
+- Suit les meilleures pratiques des modules Prestashop
+- Configuration centralisée pour les réseaux sociaux pris en charge
+- Rendu basé sur des modèles pour une personnalisation flexible de l'interface
 ## Installation
+1. Téléchargez le fichier ZIP du module à partir de la [page des versions](https://github.com/flaggalagga/lgf_socialfollow/releases).
+2. Dans le panneau d'administration de votre Prestashop, accédez à la section "Modules" et cliquez sur "Télécharger un module".
+3. Choisissez le fichier ZIP téléchargé et cliquez sur "Téléverser ce module".
+4. Localisez le module "Liens vers les réseaux sociaux et messageries" dans la liste et cliquez sur "Installer".
+5. Configurez les paramètres du module selon vos besoins, comme les liens vers les réseaux sociaux.
+## Personnalisation
+Vous pouvez personnaliser l'apparence du module en modifiant le fichier CSS situé à `lgf_socialfollow/views/css/lgf_socialfollow.css`.
 
-1. Download the module ZIP file from the [releases page](https://github.com/flaggalagga/lgf_socialfollow/releases).
-2. In your Prestashop admin panel, go to the "Modules" section and click on "Upload a module".
-3. Choose the downloaded ZIP file and click "Upload this module".
-4. Locate the "Social media and messengers links" module in the list and click "Install".
-5. Configure the module settings as needed, such as the social media links.
-
-## Customization
-
-You can customize the module's appearance by modifying the CSS file located at `lgf_socialfollow/views/css/lgf_socialfollow.css`. 
-
-The module also uses a template file (`lgf_socialfollow.tpl`) for rendering the UI, which can be further customized as needed.
-
-## Reporting Issues
-
-If you encounter any issues or have feature requests, please create a new issue on the [GitHub repository](https://github.com/flaggalagga/lgf_socialfollow/issues).
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow the standard GitHub workflow:
-
-1. Fork the repository
-2. Create a new branch for your changes
-3. Make your modifications
-4. Submit a pull request
-
-## License
-
-This module is licensed under the [MIT License](LICENSE).
-=======
-# lgf_socialfollow
-Extensive upgrade to the original module ps_socialfollow for Prestashop
+Le module utilise également un fichier de modèle (`lgf_socialfollow.tpl`) pour le rendu de l'interface, qui peut être davantage personnalisé au besoin.
+## Signalement des problèmes
+Si vous rencontrez des problèmes ou avez des demandes de fonctionnalités, veuillez créer un nouveau problème sur le [dépôt GitHub](https://github.com/flaggalagga/lgf_socialfollow/issues).
+## Contribution
+Les contributions sont les bienvenues ! Si vous souhaitez contribuer à ce projet, veuillez suivre le workflow standard de GitHub :
+1. Forkez le dépôt
+2. Créez une nouvelle branche pour vos modifications
+3. Effectuez vos modifications
+4. Soumettez une pull request
+## Licence
+Ce module est sous licence [Licence MIT](LICENSE).
