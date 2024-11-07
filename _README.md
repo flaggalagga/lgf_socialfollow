@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Based on the additional information provided, here's an updated README file for the `lgf_socialfollow` Prestashop module:
 
 # Prestashop Social Media and Messengers Links Module (lgf_socialfollow)
@@ -73,7 +72,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ## License
 
 This module is licensed under the [MIT License](LICENSE).
-=======
-# lgf_socialfollow
-Extensive upgrade to the original module ps_socialfollow for Prestashop
->>>>>>> origin/main
