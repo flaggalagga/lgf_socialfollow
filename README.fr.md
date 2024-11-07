@@ -1,6 +1,3 @@
-<head>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
-</head>
 
 <img src="logo.png" alt="My Logo" width="50" />
 
@@ -9,88 +6,25 @@
 ## Description
 Le `lgf_socialfollow` est une amélioration importante du module Prestashop original [`ps_socialfollow`](https://github.com/PrestaShop/ps_socialfollow). Il permet d'afficher des liens vers vos comptes sur les réseaux sociaux et les messageries, aidant ainsi vos clients à savoir où vous suivre et à développer votre communauté en ligne.
 Le module prend en charge les plateformes suivantes :
+The module supports the following platforms:
+|  |  |
+|------|--------------|
+| ![Facebook](https://img.icons8.com/ios-filled/24/1877F2/facebook.png) | Facebook |
+| ![Threads](https://img.icons8.com/?size=24&id=oykyblY20T6o&format=png&color=ffffff) | Threads |
+| ![X](https://img.icons8.com/ios-filled/24/1DA1F2/x.png) | X |
+| ![Bluesky](https://img.icons8.com/?size=24&id=9229&format=png&color=339AF0) | Bluesky |
+| ![RSS](https://img.icons8.com/ios-filled/24/FFA500/rss.png) | RSS |
+| ![YouTube](https://img.icons8.com/ios-filled/24/FF0000/youtube.png) | YouTube |
+| ![Pinterest](https://img.icons8.com/ios-filled/24/E60023/pinterest.png) | Pinterest |
+| ![Vimeo](https://img.icons8.com/ios-filled/24/1AB7EA/vimeo.png) | Vimeo |
+| ![Instagram](https://img.icons8.com/ios-filled/24/C13584/instagram.png) | Instagram |
+| ![LinkedIn](https://img.icons8.com/ios-filled/24/0A66C2/linkedin.png) | LinkedIn |
+| ![TikTok](https://img.icons8.com/ios-filled/24/FFFFFF/tiktok.png) | TikTok |
+| ![Discord](https://img.icons8.com/ios-filled/24/5865F2/discord.png) | Discord |
+| ![Signal](https://img.icons8.com/ios-filled/24/3A76F0/signal-app.png) | Signal |
+| ![Telegram](https://img.icons8.com/ios-filled/24/0088CC/telegram.png) | Telegram |
+| ![WhatsApp](https://img.icons8.com/ios-filled/24/25D366/whatsapp.png) | WhatsApp |
 
-<div class="social-list">
-  <div class="social-item">
-    <i class="fa-brands fa-facebook-f" style="color: #1877F2;"></i>
-    <span>Facebook</span>
-  </div>
-  <div class="social-item">
-    <i class="fa-brands fa-threads" style="color: #000000;"></i>
-    <span>Threads</span>
-  </div>
-  <div class="social-item">
-    <i class="fa-brands fa-x-twitter" style="color: #1DA1F2;"></i>
-    <span>X</span>
-  </div>
-  <div class="social-item">
-    <i class="fa-brands fa-bluesky" style="color: #0080FF;"></i>
-    <span>Bluesky</span>
-  </div>
-  <div class="social-item">
-    <i class="fa-solid fa-rss" style="color: #FFA500;"></i>
-    <span>RSS</span>
-  </div>
-  <div class="social-item">
-    <i class="fa-brands fa-youtube" style="color: #FF0000;"></i>
-    <span>YouTube</span>
-  </div>
-  <div class="social-item">
-    <i class="fa-brands fa-pinterest-p" style="color: #E60023;"></i>
-    <span>Pinterest</span>
-  </div>
-  <div class="social-item">
-    <i class="fa-brands fa-vimeo-v" style="color: #1AB7EA;"></i>
-    <span>Vimeo</span>
-  </div>
-  <div class="social-item">
-    <i class="fa-brands fa-instagram" style="color: #C13584;"></i>
-    <span>Instagram</span>
-  </div>
-  <div class="social-item">
-    <i class="fa-brands fa-linkedin-in" style="color: #0A66C2;"></i>
-    <span>LinkedIn</span>
-  </div>
-  <div class="social-item">
-    <i class="fa-brands fa-tiktok" style="color: #010101;"></i>
-    <span>TikTok</span>
-  </div>
-  <div class="social-item">
-    <i class="fa-brands fa-discord" style="color: #5865F2;"></i>
-    <span>Discord</span>
-  </div>
-  <div class="social-item">
-    <i class="fa-brands fa-signal-messenger" style="color: #3A76F0;"></i>
-    <span>Signal</span>
-  </div>
-  <div class="social-item">
-    <i class="fa-brands fa-telegram-plane" style="color: #0088CC;"></i>
-    <span>Telegram</span>
-  </div>
-  <div class="social-item">
-    <i class="fa-brands fa-whatsapp" style="color: #25D366;"></i>
-    <span>WhatsApp</span>
-  </div>
-</div>
-
-<style>
-  .social-list {
-    display: flex;
-    flex-direction: column;
-  }
-  .social-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px; /* Space between each row */
-  }
-  .social-item i {
-    font-size: 18px; /* Larger icon size */
-    width: 35px; /* Fixed width to align icons */
-  }
-  .social-item span {
-    color: #00000; /* Text color */
-  }
-</style>
 
 ## Fonctionnalités
 - Utilise les icônes Font Awesome pour les logos des plateformes
