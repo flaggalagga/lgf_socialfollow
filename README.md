@@ -67,7 +67,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ## License
 
-This module is licensed under the [MIT License](LICENSE).
-=======
-# lgf_socialfollow
-Extensive upgrade to the original module ps_socialfollow for Prestashop
+This module is licensed under the [Academic Free License 3.0](https://opensource.org/license/afl-3-0-php).

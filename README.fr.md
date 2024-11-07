@@ -51,4 +51,4 @@ Les contributions sont les bienvenues ! Si vous souhaitez contribuer à ce proje
 3. Effectuez vos modifications
 4. Soumettez une pull request
 ## Licence
-Ce module est sous licence [Licence MIT](LICENSE).
+Ce module est sous licence [Academic Free License 3.0](https://opensource.org/license/afl-3-0-php).
