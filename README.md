@@ -1,14 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-Based on the additional information provided, here's an updated README file for the `lgf_socialfollow` Prestashop module:
-
-=======
->>>>>>> d774fe3389705e4732020f6ae0c3102be43ecdfb
 # Prestashop Social Media and Messengers Links Module (lgf_socialfollow)
 
 ## Description
 
-The `lgf_socialfollow` is an extensive upgrade to the original Prestashop `ps_socialfollow` module. It allows you to display links to your social media and messenger accounts, helping your customers know where to follow you and increase your online community.
+The `lgf_socialfollow` is an extensive upgrade to the original Prestashop [`ps_socialfollow`](https://github.com/PrestaShop/ps_socialfollow) module. It allows you to display links to your social media and messenger accounts, helping your customers know where to follow you and increase your online community.
 
 The module supports the following platforms:
 
