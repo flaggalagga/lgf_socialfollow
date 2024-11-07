@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-Based on the additional information provided, here's an updated README file for the `lgf_socialfollow` Prestashop module:
-
 # Prestashop Social Media and Messengers Links Module (lgf_socialfollow)
 
 ## Description
