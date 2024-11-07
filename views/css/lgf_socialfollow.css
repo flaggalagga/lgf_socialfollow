@@ -1,0 +1,61 @@
+/* Ensure Font Awesome is loaded yes */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+
+.lgf-social-follow ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lgf-social-follow a {
+  font-family: "Font Awesome 6 Brands";
+  font-size: 24px;
+  text-decoration: none;
+  position: relative;
+  display: block;
+}
+
+/* Hide the text but keep it accessible */
+.lgf-social-follow a {
+  font-size: 0;  /* This hides the text */
+}
+
+.lgf-social-follow a:before {
+  font-size: 24px; /* This shows the icon */
+  display: block;
+}
+
+/* Optional hover effects */
+.lgf-social-follow .facebook a:before { color: #1877f2; }
+.lgf-social-follow .xtwitter a:before { color: #000000; }
+.lgf-social-follow .instagram a:before { color: #e4405f; }
+.lgf-social-follow .linkedin a:before { color: #0077b5; }
+.lgf-social-follow .tiktok a:before { color: #000000; }
+
+/* Optional hover transition */
+.lgf-social-follow a:before {
+  transition: opacity 0.3s ease;
+}
+
+.lgf-social-follow a:hover:before {
+  opacity: 0.8;
+}
+
+.lgf-social-follow .facebook a:before { content: "\f39e"; }
+.lgf-social-follow .threads a:before { content: "\e618"; }
+.lgf-social-follow .xtwitter a:before { content: "\e61b"; } 
+.lgf-social-follow .bluesky a:before { content: "\e671"; }
+.lgf-social-follow .rss a:before { content: "\f09e"; }
+.lgf-social-follow .youtube a:before { content: "\f167"; }
+.lgf-social-follow .pinterest a:before { content: "\f0d2"; }
+.lgf-social-follow .vimeo a:before { content: "\f40a"; }
+.lgf-social-follow .instagram a:before { content: "\f16d"; }
+.lgf-social-follow .linkedin a:before { content: "\f0e1"; }
+.lgf-social-follow .tiktok a:before { content: "\e07b"; }
+.lgf-social-follow .discord a:before { content: "\f392"; }
+.lgf-social-follow .signal a:before { content: "\e663"; }
+.lgf-social-follow .telegram a:before { content: "\f2c6"; }
+.lgf-social-follow .whatsapp a:before { content: "\f232"; }
