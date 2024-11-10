@@ -43,7 +43,7 @@ The module supports the following platforms:
 
 ## Installation
 
-1. Download the module ZIP file from the [releases page](https://github.com/flaggalagga/lgf_socialfollow/releases).
+1. Download the compressed module file from the [releases page](https://github.com/flaggalagga/lgf_socialfollow/releases).
 2. In your Prestashop admin panel, go to the "Modules" section and click on "Upload a module".
 3. Choose the downloaded ZIP file and click "Upload this module".
 4. Locate the "Social media and messengers links" module in the list and click "Install".

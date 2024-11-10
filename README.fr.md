@@ -37,7 +37,7 @@ Le module prend en charge les plateformes suivantes :
 - Configuration centralisée pour les réseaux sociaux pris en charge
 - Rendu basé sur des modèles pour une personnalisation flexible de l'interface
 ## Installation
-1. Téléchargez le fichier ZIP du module à partir de la [page des versions](https://github.com/flaggalagga/lgf_socialfollow/releases).
+1. Téléchargez le fichier compressé du module depuis les [Releases](https://github.com/flaggalagga/lgf_socialfollow/releases).
 2. Dans le panneau d'administration de votre Prestashop, accédez à la section "Modules" et cliquez sur "Télécharger un module".
 3. Choisissez le fichier ZIP téléchargé et cliquez sur "Téléverser ce module".
 4. Localisez le module "Liens vers les réseaux sociaux et messageries" dans la liste et cliquez sur "Installer".
