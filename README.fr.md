@@ -5,10 +5,14 @@
 🇬🇧 [English](README.md)
 ## Description
 Le `lgf_socialfollow` est une amélioration importante du module Prestashop original [`ps_socialfollow`](https://github.com/PrestaShop/ps_socialfollow). Il permet d'afficher des liens vers vos comptes sur les réseaux sociaux et les messageries, aidant ainsi vos clients à savoir où vous suivre et à développer votre communauté en ligne.
+
+Voyez le module en fonctionnement sur [`shop.kikifornell.art`](https://shop.kikifornell.art/fr/).
+
+
 Le module prend en charge les plateformes suivantes :
-The module supports the following platforms:
-|  |  |
-|------|--------------|
+
+||  |
+|:------:|:--------------|
 | ![Facebook](https://img.icons8.com/ios-filled/24/1877F2/facebook.png) | Facebook |
 | ![Threads](https://img.icons8.com/?size=24&id=oykyblY20T6o&format=png&color=ffffff) | Threads |
 | ![X](https://img.icons8.com/ios-filled/24/1DA1F2/x.png) | X |
