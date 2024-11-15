@@ -32,6 +32,7 @@ class Lgf_Socialfollow extends Module implements WidgetInterface
         'XTWITTER' => ['label' => 'X', 'desc' => 'Your official X account.'],
         'LINKEDIN' => ['label' => 'LinkedIn', 'desc' => 'Your official LinkedIn account.'],
         'BLUESKY' => ['label' => 'Bluesky', 'desc' => 'Your official Bluesky account.'],
+        'BEHANCE' => ['label' => 'Behance', 'desc' => 'Your official Bēhance account.'],       
         'RSS' => ['label' => 'RSS', 'desc' => 'The RSS feed of your choice (your blog, your store, etc.).'],
         'YOUTUBE' => ['label' => 'YouTube', 'desc' => 'Your official YouTube account.'],
         'PINTEREST' => ['label' => 'Pinterest', 'desc' => 'Your official Pinterest account.'],

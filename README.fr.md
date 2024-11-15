@@ -11,12 +11,13 @@ Voyez le module en fonctionnement sur [`shop.kikifornell.art`](https://shop.kiki
 
 Le module prend en charge les plateformes suivantes :
 
-||  |
+|  |  |
 |:------:|:--------------|
 | ![Facebook](https://img.icons8.com/ios-filled/24/1877F2/facebook.png) | Facebook |
 | ![Threads](https://img.icons8.com/?size=24&id=oykyblY20T6o&format=png&color=ffffff) | Threads |
 | ![X](https://img.icons8.com/ios-filled/24/1DA1F2/x.png) | X |
 | ![Bluesky](https://img.icons8.com/?size=24&id=9229&format=png&color=339AF0) | Bluesky |
+| ![Bēhance](https://img.icons8.com/ios-filled/24/1769ff/behance.png) | Bēhance |
 | ![RSS](https://img.icons8.com/ios-filled/24/FFA500/rss.png) | RSS |
 | ![YouTube](https://img.icons8.com/ios-filled/24/FF0000/youtube.png) | YouTube |
 | ![Pinterest](https://img.icons8.com/ios-filled/24/E60023/pinterest.png) | Pinterest |
