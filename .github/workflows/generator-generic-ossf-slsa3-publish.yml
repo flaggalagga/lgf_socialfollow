@@ -1,0 +1,67 @@
+name: SLSA generic generator
+
+on:
+  workflow_dispatch:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      digests: ${{ steps.hash.outputs.digests }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build PrestaShop module
+        run: |
+          # Create temporary build directory
+          mkdir build
+          mkdir build/lgf_socialfollow
+
+          # Copy only necessary files and directories
+          cp -r \
+            LICENSE.md \
+            README.fr.md \
+            README.md \
+            config.xml \
+            index.php \
+            lgf_socialfollow.php \
+            lgf_socialfollow.tpl \
+            logo.png \
+            translations \
+            upgrade \
+            views \
+            build/lgf_socialfollow/
+
+          # Create distribution zip
+          cd build
+          zip -r "lgf_socialfollow.zip" lgf_socialfollow \
+            -x "*.git*" \
+            -x "*.github*" \
+            -x "*composer.lock*" \
+            -x "*.DS_Store*"
+
+          # Move zip to artifacts directory
+          mkdir ../artifacts
+          mv lgf_socialfollow.zip ../artifacts/
+
+      - name: Generate subject for provenance
+        id: hash
+        run: |
+          set -euo pipefail
+          cd artifacts
+          # Generate hashes for the module zip file
+          files=$(ls *.zip)
+          echo "hashes=$(sha256sum $files | base64 -w0)" >> "${GITHUB_OUTPUT}"
+
+  provenance:
+    needs: [build]
+    permissions:
+      actions: read   # To read the workflow path.
+      id-token: write # To sign the provenance.
+      contents: write # To add assets to a release.
+    uses: slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v1.4.0
+    with:
+      base64-subjects: "${{ needs.build.outputs.digests }}"
+      upload-assets: true
